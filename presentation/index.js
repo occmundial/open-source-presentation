@@ -80,21 +80,21 @@ export default class Presentation extends React.Component {
             Agenda
           </Heading>
           <List textColor="quartenary">
-            <ListItem>Importancia del Open Source</ListItem>
-            <ListItem>Participando en la comunidad</ListItem>
-            <ListItem>Reportando issues</ListItem>
-            <ListItem>Resolviendo dudas</ListItem>
-            <ListItem>Ayudando a documentar</ListItem>
-            <ListItem>Compartiendo herramientas</ListItem>
-            <ListItem>Resolviendo issues</ListItem>
-            <ListItem>Further reading</ListItem>
+            <ListItem>Importancia del Open Source 🔓</ListItem>
+            <ListItem>Participando en la comunidad 👫</ListItem>
+            <ListItem>Reportando issues 😤</ListItem>
+            <ListItem>Resolviendo dudas 😣</ListItem>
+            <ListItem>Ayudando a documentar 📃</ListItem>
+            <ListItem>Compartiendo herramientas 🔨</ListItem>
+            <ListItem>Resolviendo issues 💡</ListItem>
+            <ListItem>Further reading 📖</ListItem>
           </List>
         </Slide>
 
         {/* Importancia del Open Source */}
         <Slide transition={["slide"]} bgColor="secondary">
           <Heading size={1} textColor="primary" fit="true">
-            Importancia del Open Source
+            Importancia del Open Source 🔓
           </Heading>
         </Slide>
 
@@ -203,7 +203,7 @@ export default class Presentation extends React.Component {
         {/* Participando en la comunidad */}
         <Slide transition={["slide"]} bgColor="secondary">
           <Heading size={1} textColor="primary" fit="true">
-            Participando en la comunidad
+            Participando en la comunidad 👫
           </Heading>
         </Slide>
 
@@ -226,7 +226,7 @@ export default class Presentation extends React.Component {
         {/* Compartiendo experiencias */}
         <Slide transition={["slide"]} bgColor="primary" notes="">
           <Heading size={2} textColor="secondary" margin="30px" fit>
-            Compartiendo experiencias
+            Compartiendo experiencias 👆
           </Heading>
           <Image src={images.medium.replace("/", "")} width="75%" />
         </Slide>
@@ -234,7 +234,7 @@ export default class Presentation extends React.Component {
         {/* Grupos en linea */}
         <Slide transition={["slide"]} bgColor="primary" notes="">
           <Heading size={2} textColor="secondary" margin="30px" fit>
-            Grupos en linea
+            Grupos en linea 🌐
           </Heading>
           <Image src={images.facebook.replace("/", "")} width="75%" />
         </Slide>
@@ -242,14 +242,14 @@ export default class Presentation extends React.Component {
         {/* Reportando issues */}
         <Slide transition={["slide"]} bgColor="secondary">
           <Heading size={1} textColor="primary" fit="true">
-            Reportando issues
+            Reportando issues 😤
           </Heading>
         </Slide>
 
         {/* Github issues */}
         <Slide transition={["slide"]} bgColor="primary" notes="">
           <Heading size={2} textColor="secondary" margin="30px" fit>
-            Github issues
+            Github issues 😾
           </Heading>
           <Text
             size={3}
@@ -267,14 +267,14 @@ export default class Presentation extends React.Component {
         {/* Resolviendo dudas*/}
         <Slide transition={["slide"]} bgColor="secondary">
           <Heading size={1} textColor="primary" fit="true">
-            Resolviendo dudas
+            Resolviendo dudas 😣
           </Heading>
         </Slide>
 
         {/* Stack Overflow */}
         <Slide transition={["slide"]} bgColor="primary" notes="">
           <Heading size={2} textColor="secondary" margin="30px" fit>
-            Stack Overflow
+            Stack Overflow 📚
           </Heading>
           <Text
             size={3}
@@ -292,14 +292,14 @@ export default class Presentation extends React.Component {
         {/* Ayudando a documentar*/}
         <Slide transition={["slide"]} bgColor="secondary">
           <Heading size={1} textColor="primary" fit="true">
-            Ayudando a documentar
+            Ayudando a documentar 📃
           </Heading>
         </Slide>
 
         {/* Traducciones */}
         <Slide transition={["slide"]} bgColor="primary" notes="">
           <Heading size={2} textColor="secondary" margin="30px" fit>
-            Traducciones
+            Traducciones 🇲🇽
           </Heading>
           <Text
             size={3}
@@ -315,7 +315,7 @@ export default class Presentation extends React.Component {
         {/* Compartiendo herramientas */}
         <Slide transition={["slide"]} bgColor="secondary">
           <Heading size={1} textColor="primary" fit="true">
-            Compartiendo herramientas
+            Compartiendo herramientas 🔨
           </Heading>
         </Slide>
 
@@ -325,13 +325,14 @@ export default class Presentation extends React.Component {
             <a href="https://medium.com/@josfranco/building-react-tree-13379fb0b54f">
               React-tree
             </a>
+            🎄
           </Heading>
         </Slide>
 
         {/* Resolviendo issues */}
         <Slide transition={["slide"]} bgColor="secondary">
           <Heading size={1} textColor="primary" fit="true">
-            Resolviendo issues
+            Resolviendo issues 💡
           </Heading>
         </Slide>
 
@@ -339,7 +340,7 @@ export default class Presentation extends React.Component {
         <Slide transition={["slide"]} bgColor="primary" notes="">
           <Heading size={2} textColor="secondary" margin="30px" fit>
             <a href="https://github.com/coralproject/talk/pulls?q=is%3Apr+author%3APepeFranco+is%3Aclosed">
-              Pull Requests
+              Pull Requests ⬆️
             </a>
           </Heading>
         </Slide>
@@ -348,17 +349,15 @@ export default class Presentation extends React.Component {
         <Slide transition={["slide"]} bgColor="primary" notes="">
           <Heading size={2} textColor="secondary" margin="30px" fit>
             <a href="https://github.com/coralproject/talk/issues/1044">
-              Guia pull requests
+              Guia pull requests 📓
             </a>
           </Heading>
         </Slide>
 
         {/* Further Reading */}
-        <Slide transition={["slide"]} bgColor="primary" notes="">
-          <Heading size={2} textColor="secondary" margin="30px" fit>
-            <a href="">
-              Further Reading
-            </a>
+        <Slide transition={["slide"]} bgColor="secondary">
+          <Heading size={1} textColor="primary" fit="true">
+            Further Reading 📖
           </Heading>
         </Slide>
 
@@ -366,7 +365,7 @@ export default class Presentation extends React.Component {
         <Slide transition={["slide"]} bgColor="primary" notes="">
           <Heading size={2} textColor="secondary" margin="30px" fit>
             <a href="https://opensource.guide/how-to-contribute/">
-            How to contribute to open source
+              How to contribute to open source
             </a>
           </Heading>
         </Slide>
@@ -374,14 +373,14 @@ export default class Presentation extends React.Component {
         {/* Preguntas */}
         <Slide transition={["slide"]} bgColor="secondary">
           <Heading size={1} textColor="primary" fit="true">
-            Preguntas
+            Preguntas 🤔
           </Heading>
         </Slide>
 
         {/* Fin */}
         <Slide transition={["slide"]} bgColor="primary">
           <Heading size={1} textColor="secondary" fit="true">
-            👏¡Gracias!
+            ¡Gracias! 👏
           </Heading>
           <Heading size={6} textColor="quartenary" fit="true">
             https://github.com/occmundial/open-source-presentation
