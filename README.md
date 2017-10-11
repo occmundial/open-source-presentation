@@ -1,6 +1,6 @@
- # Unit testing en ReactJS
+ # Contribuyendo a Open Source
  
- Presentación del [React Day](https://reactdaycdmx.splashthat.com/?preview) de Facebook Developer Circles
+ Presentación para Open OCC
  
  Construida con 
  
